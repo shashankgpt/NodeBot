@@ -1,0 +1,24 @@
+{
+  "name": "nodebot",
+  "version": "1.0.0",
+  "description": "node bot code along",
+  "main": "demo.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "loadash": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankgpt/NodeBot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shashankgpt/NodeBot/issues"
+  },
+  "homepage": "https://github.com/shashankgpt/NodeBot#readme"
+}
