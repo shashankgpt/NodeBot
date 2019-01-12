@@ -1,3 +1,6 @@
-var _ =require('lodash');
-
-console.log(_.random(1,100));
+var fs =require('fs');
+var data=require('./data.json');
+console.log(data.hello);
+fs.readFile('./data.json','utf-8',(err,data)=>{
+    console.log(data);
+});
