@@ -2,7 +2,7 @@
   "name": "nodebot",
   "version": "1.0.0",
   "description": "node bot code along",
-  "main": "demo.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
@@ -13,9 +13,12 @@
     "socket-io": "^1.0.0",
     "socket.io": "^2.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine",
+    "start":"node server.js"
   },
   "repository": {
     "type": "git",
