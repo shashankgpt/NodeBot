@@ -33,9 +33,7 @@
     {
         $.get('http://localhost:3000/messages',(data)=>{
             //console.log(data);
-            data.forEach(function(element) {
-                addMessages(element);
-            },this);
+            data.forEach(addMessages);
         });
     }
 
