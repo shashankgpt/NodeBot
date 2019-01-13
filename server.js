@@ -18,9 +18,13 @@ res.send(messages);
 
 app.post('/messages',(req,res)=>{
     messages.push(req.body);
+    io.emit('message',req.body);
     res.sendStatus(200);
     });
 
+    io.on('connection',(socket)=>{
+        console.log('a user connected');
+    });
 var server=http.listen(3000,()=>{
     console.log('server is listening on port',server.address().port);
 });
